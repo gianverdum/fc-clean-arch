@@ -3,8 +3,8 @@ export interface InputCreatedCustomerDto {
     address: {
         street: string;
         number: number;
-        city: string;
         zip: string;
+        city: string;
     };
 }
 
@@ -14,7 +14,7 @@ export interface OutputCreateCustomerDto {
     address: {
         street: string;
         number: number;
-        city: string;
         zip: string;
+        city: string;
     };
 }
